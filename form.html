@@ -46,7 +46,7 @@
 </head>
 <body>
     <div class="info-container">
-        <img src="https://via.placeholder.com/100" alt="Profile Picture">
+        <img src="22.jpg" alt="Profile Picture">
         <h2>📋 Personal Information</h2>
         <div class="info">
             <span>👤 Name:</span> Abeer Amer

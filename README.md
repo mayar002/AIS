@@ -5,13 +5,16 @@
     <title>Information Page</title>
     <style>
         body {
-            font-family: 'Comic Sans MS', cursive, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             background-color: #cce7ff;
+            background-image: url('15.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         .info-container {
             max-width: 600px;
@@ -28,8 +31,8 @@
             color: #002147;
         }
         .info-container .info {
-            margin-bottom: 15px;
-            font-size: 18px;
+            margin-bottom: 25px;
+            font-size: 38px;
             color: #002147;
         }
         .info-container .info span {
@@ -37,14 +40,13 @@
             color: #004080;
         }
         .info-container img {
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             margin-bottom: 20px;
         }
     </style>
-</head>
-<body>
+</head><body>
     <div class="info-container">
         <img src="22.jpg" alt="Profile Picture">
         <h2>📋 Personal Information</h2>

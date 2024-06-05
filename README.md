@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,10 +18,10 @@
             background-repeat: no-repeat;
         }
         .info-container {
-            max-width: 600px;
+            max-width: 100%; /* Adjusted to 100% for maximum width */
             padding: 20px;
             border: 2px solid #99c2ff;
-            border-radius: 150px;
+            border-radius: 15px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
             background-color: #e6f2ff;
             text-align: center;
@@ -46,7 +47,8 @@
             margin-bottom: 20px;
         }
     </style>
-</head><body>
+</head>
+    <body>
     <div class="info-container">
         <img src="22.jpg" alt="Profile Picture">
         <h2>📋 Personal Information</h2>

@@ -18,7 +18,7 @@
         }
         .info-container {
             max-width: 600px;
-            padding: 20px;
+            padding: 200px;
             border: 2px solid #99c2ff;
             border-radius: 15px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);

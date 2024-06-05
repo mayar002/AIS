@@ -18,9 +18,9 @@
         }
         .info-container {
             max-width: 600px;
-            padding: 200px;
+            padding: 20px;
             border: 2px solid #99c2ff;
-            border-radius: 15px;
+            border-radius: 150px;
             box-shadow: 0 0 15px rgba(0,0,0,0.2);
             background-color: #e6f2ff;
             text-align: center;

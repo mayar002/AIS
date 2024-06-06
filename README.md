@@ -17,7 +17,7 @@
             background-repeat: no-repeat;
         }
         .info-container {
-            max-width: 600px; /* Adjusted width */
+            max-width: 800px; /* Adjusted width */
             padding: 20px;
             border: 2px solid #99c2ff;
             border-radius: 15px;

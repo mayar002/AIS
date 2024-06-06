@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,6 +32,10 @@
             margin-bottom: 25px;
             font-size: 18px;
             color: #002147;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px; /* Gap between label and value */
         }
         .info-container .info span {
             font-weight: bold;
@@ -42,9 +47,15 @@
             border-radius: 50%;
             margin-bottom: 20px;
         }
+
+        @media (max-width: 600px) {
+            .info-container .info {
+                flex-direction: column; /* Stack items vertically on small screens */
+            }
+        }
     </style>
 </head>
-    <body>
+<body>
     <div class="info-container">
         <img src="22.jpg" alt="Profile Picture">
         <h2>📋 Personal Information</h2>
@@ -55,16 +66,16 @@
             <span>🎂 Age:</span> 30
         </div>
         <div class="info">
-            <span>📅 Date of Birth:</span>1/1/1994
+            <span>📅 Date of Birth:</span> 1/1/1994
         </div>
         <div class="info">
-        <span>📞Parent's Number:</span> 01001941170
+            <span>📞 Parent's Number:</span> 01001941170
         </div>
         <div class="info">
-            <span>📞Another Number:</span>+20 100 194 1170
+            <span>📞 Another Number:</span> +20 100 194 1170
         </div>
         <div class="info">
-            <span>🩺Last Medical History:</span> non
+            <span>🩺 Last Medical History:</span> non
         </div>
     </div>
 </body>

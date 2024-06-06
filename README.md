@@ -17,7 +17,7 @@
             background-repeat: no-repeat;
         }
         .info-container {
-            max-width: 100%; /* Adjusted to 100% for maximum width */
+            max-width: 600px; /* Adjusted width */
             padding: 20px;
             border: 2px solid #99c2ff;
             border-radius: 15px;
@@ -32,7 +32,7 @@
         }
         .info-container .info {
             margin-bottom: 25px;
-            font-size: 38px;
+            font-size: 24px; /* Adjusted font size */
             color: #002147;
         }
         .info-container .info span {
@@ -40,8 +40,8 @@
             color: #004080;
         }
         .info-container img {
-            width: 200px;
-            height: 200px;
+            width: 150px; /* Adjusted image size */
+            height: 150px; /* Adjusted image size */
             border-radius: 50%;
             margin-bottom: 20px;
         }

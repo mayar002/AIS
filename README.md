@@ -24,11 +24,11 @@
             color: #003366;
         }
         .info-container h2 {
-            margin-bottom: 15px;
+            margin-bottom: 25px;
             color: #002147;
         }
         .info-container .info {
-            margin-bottom: 10px;
+            margin-bottom: 25px;
             font-size: 18px;
             color: #002147;
         }

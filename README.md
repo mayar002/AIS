@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +28,7 @@
             color: #002147;
         }
         .info-container .info {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             font-size: 18px;
             color: #002147;
             display: flex;
@@ -46,12 +45,6 @@
             height: 100px;
             border-radius: 50%;
             margin-bottom: 20px;
-        }
-
-        @media (max-width: 600px) {
-            .info-container .info {
-                flex-direction: column; /* Stack items vertically on small screens */
-            }
         }
     </style>
 </head>
@@ -75,7 +68,7 @@
             <span>📞 Another Number:</span> +20 100 194 1170
         </div>
         <div class="info">
-            <span>🩺 Last Medical History:</span> non
+            <span>🩺 Last Medical History:</span> none
         </div>
     </div>
 </body>

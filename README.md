@@ -55,13 +55,13 @@
             <span>🎂 Age:</span> 30
         </div>
         <div class="info">
-            <span>📅 Date of Birth:</span> January 1, 1994
+            <span>📅 Date of Birth:</span>1/1/1994
         </div>
         <div class="info">
-            <span>📞 Parent's Number:</span> +1-234-567-890
+            <span>📞 Parent's Number:</span> 01001941170
         </div>
         <div class="info">
-            <span>📞 Another Number:</span> +1-234-567-890
+            <span>📞 Another Number:</span>+20 100 194 1170
         </div>
         <div class="info">
             <span>🩺 Last Medical History:</span> non

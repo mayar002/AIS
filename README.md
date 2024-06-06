@@ -12,12 +12,9 @@
             align-items: center;
             height: 100vh;
             background-color: #cce7ff;
-            background-image: url('15.jpeg');
-            background-size: cover;
-            background-repeat: no-repeat;
         }
         .info-container {
-            max-width: 800px; /* Adjusted width */
+            max-width: 600px;
             padding: 20px;
             border: 2px solid #99c2ff;
             border-radius: 15px;
@@ -31,8 +28,8 @@
             color: #002147;
         }
         .info-container .info {
-            margin-bottom: 25px;
-            font-size: 24px; /* Adjusted font size */
+            margin-bottom: 15px;
+            font-size: 18px;
             color: #002147;
         }
         .info-container .info span {
@@ -40,8 +37,8 @@
             color: #004080;
         }
         .info-container img {
-            width: 150px; /* Adjusted image size */
-            height: 150px; /* Adjusted image size */
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             margin-bottom: 20px;
         }
